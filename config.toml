@@ -5,7 +5,7 @@ theme = "minimal"
 
 [params]
     author = "David Cheung"
-    description = "Personal blog theme powered by Hugo"
+    description = "Hi, I'm a full stack developer in New York City!"
     githubUsername = "#"
     accent = "red"
     showBorder = true
