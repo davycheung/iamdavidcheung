@@ -7,11 +7,7 @@ description: david cheung
 ---
 
 
-Senior developer building and maintaining useful things through generous amounts of 🤔🤔🤔 and ☕️☕️☕️!!!
+Senior developer building useful things by writing [clean code](http://www.php-fig.org/psr/psr-2/) & utilizing design patterns, powered by generous amounts of 🤔🤔🤔 and ☕️☕️☕️!!! Curently working on the product team at [Continuum Economics](http://www.continuumeconomics.com), accruing an awesome amount of experience here using [PHP](http://www.php.net), [Laravel](https://www.laravel.com/), & [Vue](https://www.vuejs.com/). 
 
 
-
-Currently accruing an awesome amount of experience in [laravel](https://www.laravel.com/), doing daily migrations, defining eloquent models, custom artisan commands, front end development with blade templates & [Vue](https://www.vuejs.com/) components.
-
-
-When not working you can find me at a [NodeJS Meetup](https://www.meetup.com/nodejs/), [hiking](http://hikethehudsonvalley.com/breakneck-ridge/), and otherwise enjoying life (✈️,🍻, 🍽).
+When not working you can find me at a [NodeJS Meetup](https://www.meetup.com/nodejs/), [hiking](http://hikethehudsonvalley.com/breakneck-ridge/), and otherwise enjoying life (✈️, 🍻, 🌮).
