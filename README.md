@@ -1,4 +1,4 @@
-## Hi! This is the code for: [iamdavidcheung.com](https://iamdavidcheung.com)
+## Hi! This is the code for: [iamdavidcheung.com](http://www.iamdavidcheung.com)
 
 
 ### Run
