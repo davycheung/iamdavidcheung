@@ -4,6 +4,6 @@ draft = false
 title = "about"
 +++
 
-Senior Developer on the product team at [Continuum Economics](http://www.continuumeconomics.com), accruing an awesome amount of experience here using [PHP](http://www.php.net), [Laravel](https://www.laravel.com/), & [Vue](https://www.vuejs.com/).
+Head of Engineering at [Continuum Economics](http://www.continuumeconomics.com), having fun & rapidly building product & tooling using PHP7, Python, Javascript, [Laravel](https://www.laravel.com/), & [Vue](https://www.vuejs.com/).
 
 When not working you can find me at a variety of meetups ([Node](https://www.meetup.com/nodejs/), [Vue](https://www.meetup.com/vueJsNYC/)), [hiking](http://hikethehudsonvalley.com/the-hikes/), reading, and enjoying life (✈️, 🍻, 🌮).
