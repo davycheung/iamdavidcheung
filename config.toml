@@ -1,6 +1,6 @@
 baseurl = "/" # Must end with /
 languageCode = "en-us"
-title = "David Cheung"
+title = "I'm David Cheung"
 theme = "introduction"
 enforce_ssl = false
 builddrafts = false
@@ -28,7 +28,7 @@ timezone = "America/New_York" # Your timezone as in the TZ* column of this list:
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 EST"
 cachebuster = true # Add the current unix timestamp in query string for cache busting css assets
-description = "David Cheung"
+description = "Software Engineer / Stony Brook University Alumni. Technology, building cool things &amp; meeting great people are my professional goals."
 faviconfile = ""
 highlightjs = true # Syntax highlighting
 lang = "en"
