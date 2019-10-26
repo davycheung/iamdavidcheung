@@ -50,7 +50,7 @@ theme = "minimal"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.instagram.com/bigdavenyc"
+    url = "https://www.instagram.com/realdavidcheung"
     name = "instagram"
     weight = 4
 

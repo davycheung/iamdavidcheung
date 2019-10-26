@@ -1,82 +1,126 @@
-baseurl = "/" # Must end with /
-languageCode = "en-us"
-title = "I'm David Cheung"
-theme = "introduction"
-enforce_ssl = false
-builddrafts = false
-canonifyurls = true
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-# disqusshortname   = "xxx" # Enable Disqus for comments
-# googleAnalytics   = "xxx"
+baseURL = "https://iamdavidcheung.com"
+title   = "David Cheung"
+
+DefaultContentLanguage = "en"
+
+theme = "hello-friend-ng"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
 
 [permalinks]
-fixed = ":title/"
-blog  = "blog/:slug/"
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = "David Cheung"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = ""
 
 [params]
-author = "David Cheung" # Full name shows on blog post pages
-firstname = "David" # First name shows in introduction on main page
-tagline = "I'm a full stack developer in New York City!" # Appears after the introduction
-introheight = "large" # Input either 'medium' or 'large' or 'fullheight'
-theme = "dark" # Choose 'light' or 'dark'
-avatar = "" # Path to image in static folder eg. img/avatar.png, or comment out to remove
-email = "realdavidcheung@gmail.com" # Shows in contact section, or leave blank to omit
-localtime = true # Show your current local time in contact section
-timezone = "America/New_York" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 EST"
-cachebuster = true # Add the current unix timestamp in query string for cache busting css assets
-description = "Software Engineer / Stony Brook University Alumni / Continuum Economics. Technology, building cool things &amp; meeting great people are my professional goals."
-faviconfile = "favicon.ico"
-highlightjs = true # Syntax highlighting
-lang = "en"
-footertext = "" # Text to show in footer (overrides default text)
-fadein = true # Turn on/off the fade-in effect
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-showblog = false # Show Blog section on home page
-showallposts = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
-showlatest = true # Show latest blog post summary
-sharebuttons = false # On post pages, show share this social buttons
+  # Metadata mostly used in document's head
+  description = "Nice theme for homepages and blogs"
+  keywords = ""
+  images = [""]
 
-# Share buttons
-sharetwitter = false
-sharefacebook = false
-sharepinterest = false
-sharegoogleplus = true
+  homeSubtitle = "Software Engineer in NYC"
 
-showprojects    = false # Show Projects section on home page
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
 
-# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link = "#"
-project1img = "img/project1.jpg"
-project1title = "Project 1"
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
 
-project2link = "#"
-project2img = "img/project2.jpg"
-project2title = "Project 2"
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
 
-project3link = "#"
-project3img = "img/project3.jpg"
-project3title = "Project 3"
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+  themeColor = "#252627"
 
+  [params.logo]
+    logoText     = "$ cd /home/david"
+    logoHomeLink = "/"
+    # Set to a valid CSS color to change the cursor in the logo.
+    # logoColor    = "#67a2c9"
 
-# Social icons appear in introduction and contact section. Add as many more as you like.
-# Find icon names here: http://fontawesome.io/cheatsheet/
+  # Social icons
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/davycheung"
 
-[[params.social]]
-url = "https://github.com/davycheung/"
-icon = "github"
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/davycheung/"
 
-[[params.social]]
-url = "https://www.linkedin.com/in/davycheung/"
-icon = "linkedin"
+  [[params.social]]
+    name = "instagram"
+    url  = "https://www.instagram.com/realdavidcheung"
 
-[[params.social]]
-url = "https://www.instagram.com/realdavidcheung"
-icon = "instagram"
+  [[params.social]]
+    name = "lastfm"
+    url  = "https://www.last.fm/user/supperdaves/listening-report/year"
 
-[[params.social]]
-url = "https://www.last.fm/user/supperdaves/listening-report/week"
-icon = "lastfm"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:realdavidcheung@gmail.com"
+
+[languages]
+  [languages.en]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 1
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.fr]
+    subtitle  = "Hello Friend NG Theme"
+    weight    = 2
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+#   [[menu.main]]
+#     identifier = "posts"
+#     name       = "Posts"
+#     url        = "posts/"
