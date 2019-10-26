@@ -6,7 +6,7 @@ title = "about"
 
 Senior Software Engineer at [Climb Credit](http://www.climbcredit.com), helping students build careers.
 
-Previously Head of Engineering at [Continuum Economics](http://www.continuumeconomics.com), having fun & rapidly building product & tooling using PHP7, Python, Javascript, [Laravel](https://www.laravel.com/), & [Vue](https://www.vuejs.com/).
+Previously Head of Engineering at [Continuum Economics](http://www.continuumeconomics.com), building a research distribution platform delivering economic research to trading desks and key decision makers at major financial institutions throughout the world.
 
 B.S. Computer Science & M.S. Applied Mathematics at Stony Brook University.
 
