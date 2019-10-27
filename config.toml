@@ -54,8 +54,8 @@ disableHugoGeneratorInject = false
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Nice theme for homepages and blogs"
-  keywords = ""
+  description = "David Cheung Software Engineer New York"
+  keywords = "David Cheung, Stony Brook, Climb Credit, Continuum Economics, Software Engineer, New York"
   images = [""]
 
   homeSubtitle = "Software Engineer in NYC"
@@ -120,7 +120,7 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-#   [[menu.main]]
-#     identifier = "posts"
-#     name       = "Posts"
-#     url        = "posts/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
