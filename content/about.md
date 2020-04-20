@@ -1,10 +1,10 @@
 +++
-date = "2017-03-09T13:19:25+08:00"
+date = "2020-04-19T19:19:25+08:00"
 draft = false
 title = "about"
 +++
 
-Senior Software Engineer at [Climb Credit](http://www.climbcredit.com), helping students build careers.
+Engineering Lead at [Climb Credit](http://www.climbcredit.com), helping students build careers.
 
 Previously Head of Engineering at [Continuum Economics](http://www.continuumeconomics.com), building a research distribution platform delivering economic research to trading desks and key decision makers at major financial institutions throughout the world.
 
